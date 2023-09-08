@@ -1,1 +1,1 @@
-This is my personal website. You are free to reuse the content under the terms of CC-BY-SA, and the code under the terms of the MIT license.
+This is my personal website. You are free to reuse the content under the terms of [CC-BY-SA]([CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/), and the code under the terms of the MIT license.
