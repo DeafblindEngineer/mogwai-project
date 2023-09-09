@@ -4,8 +4,8 @@ The project codename “Mogwai” is in reference to the small, magical creature
 
 ## Deafblind Engineer
 
-This is my personal website: [https://deafblind.engineer](https://deafblind.engineer)
+This is my personal website: [https://deafblind.engineer](https://deafblind.engineer).
 
 ## License
 
-See the [LICENSE](https://github.com/DeafblindEngineer/mogwai-project/blob/main/LICENSE.md) file.
+See the [LICENSE.md](https://github.com/DeafblindEngineer/mogwai-project/blob/main/LICENSE.md) file.
