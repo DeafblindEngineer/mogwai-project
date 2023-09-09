@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Regular data -->
+  <meta charset="utf-8">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <!-- Description -->
+  <meta name="author" content="Gizmo" />
+  <meta name="description" content="Software Developer" />
+  <meta name="keywords" content="Gizmo, Braille Terminal, DeafBlind, Developer, Programmer, Engineer, Software Development, Full-Stack Development, DevOps, Linux" />
+  <meta name="Resource-type" content="Document" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Title -->
+  <title>Deafblind Engineer /home</title>
+
+  <!-- Skiplink -->
+  <a href="#main" class="skiplink">Skip to main content</a>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+  <body>
+
+<div class="container">
+  <header role="banner">
+    <h1 class="site-title"><a href="/" title="Home">Deafblind Engineer</a></h1>
+      <ul class="nav" role="navigation">
+        <li><a href="/">/home</a></li>
+        <li><a href="/essays">/essays</a></li>
+        <li><a href="/readme">/readme</a></li>
+        <li><a href="/contact">/contact</a></li>
+      </ul>
+  </header>
+
+<main id="main" role="main">
+    <h1 class="page-title"># Switching from Windows to Linux</h1>
+    <p class="essay-date">[ 2023-09-02 ]</p>
+    
+    <p>Like most things in life, it seems that starting something new is the hardest part, no matter how easy or difficult it turns out to be, and the same was true of this journey. Beginning always means leaving something familiar behind, and there were a couple of false starts as I resisted the change. But once I began to work my way through the process, I found what I had first struggled with became a little easier as I gained more experience and confidence.</p>
+    
+    <h2>## The backstory</h2>
+    <p>I have been writing, compiling, running, and debugging code for more than forty years now. My current development workstation is running Windows 11 with WSL (Windows Subsystem for Linux). The assistive-technology stack consists of two screen readers: JAWS (primary), NVDA (backup), and an 80-cell refreshable braille display. I have used Windows since 1986 starting with the release of Windows 1.02.</p>
+    <p>Prior to Windows, I was writing programs in BASIC on machines such as the BBC Micro, Sinclair ZX Spectrum 48k, and the Texas Instrument TI-99/4A.</p>
+    <p>I have also maintained a few macOS (and Mac OS X) machines, starting with Mountain Lion in 2012 through to Mojave in 2018. I used the integrated screen reader, VoiceOver with a refreshable braille display, but to be honest I never really got on with it. The keyboard shortcuts made me feel like an ambidextrous octopus and I found many of the development applications and tooling to be either inaccessible or too cumbersome to use with the screen reader.</p>
+    <p>My exposure to Linux on the other hand has been somewhat limited, even though I have been tinkering with one Linux distro or another since 1996 when Debian was first released. Over the years I have installed various distros such as Slackware, Fedora, CentOS, Ubuntu, Arch Linux, Manjaro … on older machines, but I never really did anything more than poke around for a few hours each time. Back then I found the assistive-technology stack to be unpredictable, so I remained on Windows.</p>
+    <p>Even though my experience with Linux workstations has been limited, I have worked extensively on the backend of web architecture: server, app, and database, starting with CentOS back in 2005. These days I work on servers running AlmaLinux, Rocky Linux, and Ubuntu. I access these servers remotely by SSH-ing in from my Windows workstation using my primary screen reader, JAWS. Even though I have little to no experience with the assistive-technology stack on Linux, I am familiar with its command line.</p>
+
+    <h2>## Making the switch</h2>
+    <p>I have been using Windows for a long time and consider myself to be a power user, and know the technology inside and out, and must admit that Windows is well designed and convenient. I didn’t become adept with Windows overnight, so I don’t expect to do that with Linux either. I know there is going to be a learning curve—it will take time—but I am open to learning and experimenting, and will no doubt experience some frustrations long the way.</p>
+    <p>I have written myself a roadmap to make it clear what I am trying to achieve and the steps that I need to take towards that end goal. I will update the roadmap to reflect my progress but below is an outline of what I have accomplished so far and what I am currently working on.</p>
+
+    <h2>## Choosing my Linux Distributions and Desktops</h2>
+    <p>Finding the right Linux distributions that would best suit me as a deafblind engineer proved to be more challenging than I first though, because there is very little information on the internet about which distro would best suit a braille dependant user who likes to write code. In the end I decided to make a list of all the Linux distributions recommended for programmers and try each one out for myself. This was a time-consuming but worthwhile endeavour.</p>
+    <p>Once my list was compiled, I began downloading and verifying each of these distros and made a set of bootable USB installations. Then I set about installing or attempt to install them one by one to find the ones that best suited my needs. It became apparent quickly that while some of these distros have accessible installers, others do not. Even amongst the distros with accessible installers all is not equal. Some of these distros have speech-only installers, which is useless for me, but fortunately there are some that include braille support, albeit a limited number. Of those I have settled on Ubuntu, Arch Linux, and Slint, an eclectic mix. Arch Linux came with an additional challenge, but I was able to figure that out for myself with a little trial and error.</p>
+
+    <h2>## My current setup</h2>
+    <p>I have setup three workstations side-by-side with Ubuntu, Arch Linux, and Slint installed on each and they all boot straight into the console (tty). My current development setup consists of the Vim text editor, Tmux, and other development tools such as gcc, g++, gdb, git, etc … so that I can write, compile, run, and debug code. My development environment is still very much working in progress.</p>
+    <p>I do have the GNOME and MATE desktops installed on Ubuntu and Slint respectively so that I can use the graphical user interface when required including their respective terminals (pts). I am comfortable navigating the system, desktop, and productivity tools such as Thunderbird, LibreOffice, Firefox, etc … using only a keyboard. I will look at development tooling such as the IDEs: Eclipse, and Visual Studio Code at some point, but for now I am more than happy working on the command line in the console (tty).</p>
+
+    <h2>## Assistive-Technology Stack</h2>
+    <p>The assistive-technology stack I am currently using on Ubuntu, Arch Linux, and Slint, is the Orca screen reader program in graphical-mode, speakup a kernel-based screen reader for the Linux console in text-mode, and the BRLTTY daemon to power an 80-cell refreshable braille display.</p>
+    <p>BRLTTY works very well in the console, and I have it configured so I can switch between a contracted braille table (UEB: Unified English Braille) and the default computer braille table (NABCC: North American Braille Computer Code). I am still learning the comprehensive list of braille commands, but I can move around the console with ease.</p>
+
+    <h2>## Mastering the Command Line</h2>
+    <p>I read a short but informative book by William Rothwell called "Linux for Developers: Jumpstart Your Linux Programming Skills" which made me realise that my command line kung fu is not up to par. So I am currently working my way through "The Linux Command Line: A Complete Introduction" by William Shotts. Some commands are very familiar to me, others are not, so I am glad to be reading this book.</p>
+    <p>As well as reading Shotts' book I am also working my way through "Pro Vim" by Mark McDonnell. I am following each of the steps the author recommends on how to configure Vim and Tmux—including all the visual tweaks (even though I am blind)—on all three workstations so they mirror each other.</p>
+    <p>Once I have finished working through those books my focus will then turn to learning the following scripting languages and utilities: BASH Shell, Perl, Ruby, Tcl/Tk, sed, and awk. From what I read in Rothwell's book these languages and utilities will go a long way to improve my proficiency on the command line as a software engineer. I have a several books on my virtual bookshelf waiting to be read but I will start with the "Linux Command Line and Shell Scripting Bible" by Richard Blum, and Christine Bresnahan.</p>
+
+    <p>-- Gizmo</p>
+
+    <br />
+
+</main>
+
+<footer role="contentinfo">
+  <p class="copyright">The content for this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>. The code for this site is <a href="https://opensource.org/license/mit/">MIT</a>.</p>
+</footer>
+
+    </div>
+  </body>
+</html>

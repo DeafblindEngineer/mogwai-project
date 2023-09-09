@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Title -->
-  <title>Deafblind Engineer /home</title>
+  <title>Deafblind Engineer /contact</title>
 
   <!-- Skiplink -->
   <a href="#main" class="skiplink">Skip to main content</a>
@@ -25,21 +25,23 @@
 </head>
   <body>
 
-    <div class="container">
-      <header role="banner">
-        <h1 class="site-title"><a href="/" title="Home">Deafblind Engineer</a></h1>
-          <ul class="nav" role="navigation">
-            <li><a href="/">/home</a></li>
-            <li><a href="/essays">/essays</a></li>
-            <li><a href="/readme">/readme</a></li>
-            <li><a href="/contact">/contact</a></li>
-          </ul>
-      </header>
+<div class="container">
+  <header role="banner">
+    <h1 class="site-title"><a href="/" title="Home">Deafblind Engineer</a></h1>
+      <ul class="nav" role="navigation">
+        <li><a href="/">/home</a></li>
+        <li><a href="/essays">/essays</a></li>
+        <li><a href="/readme">/readme</a></li>
+        <li><a href="/contact">/contact</a></li>
+      </ul>
+  </header>
 
 <main id="main" role="main">
-    <h1 class="page-title"># Home</h1>
+    <h1 class="page-title"># Say Hello</h1>
     
-    <p>Hello. I am Gizmo. The Deafblind Engineer. An engineer powered by braille. I am a passionate engineer, and an all-around computer geek who enjoys solving problems for myself, and others. I am always up for a challenge and enjoy learning new technologies. This website is a platform where I can publish my personal perspective on the world of computing, software development, and my place in it, in the form of essays. I might not be where I want to be yet, but I get closer every day.</p>
+    <p>It is easy to get in touch with me if you have a burning question, you need answering about one of my projects or you just want to shoot the breeze. Everything you share with me will be held in the strictest of confidence. You can shoot me an email at <a id="contact" href=""><span class="blockspam" aria-hidden="true">no-spam</span>hello@<!-- sdfjsdhfkjypcs -->deafblind.engineer</a> or connect with me on <a href="https://github.com/DeafblindEngineer">GitHub</a>.</p>
+    <p>I respond to all emails promptly, and I would be delighted to answer any of your questions or to simply have a chat.</p>
+    <p>I look forward to hearing from you!</p>
 
     <br />
 

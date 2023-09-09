@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Regular data -->
+  <meta charset="utf-8">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <!-- Description -->
+  <meta name="author" content="Gizmo" />
+  <meta name="description" content="Software Developer" />
+  <meta name="keywords" content="Gizmo, Braille Terminal, DeafBlind, Developer, Programmer, Engineer, Software Development, Full-Stack Development, DevOps, Linux" />
+  <meta name="Resource-type" content="Document" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Title -->
+  <title>Deafblind Engineer /404</title>
+
+  <!-- Skiplink -->
+  <a href="#main" class="skiplink">Skip to main content</a>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+  <body>
+
+<div class="container">
+  <header role="banner">
+    <h1 class="site-title"><a href="/" title="Home">Deafblind Engineer</a></h1>
+      <ul class="nav" role="navigation">
+        <li><a href="/">/home</a></li>
+        <li><a href="/essays">/essays</a></li>
+        <li><a href="/readme">/readme</a></li>
+        <li><a href="/contact">/contact</a></li>
+      </ul>
+  </header>
+
+<main id="main" role="main">
+  <h1 class="page-title"># 404</h1>
+
+  <h2>## Error: page not found</h2>
+  <ul>
+    <li>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</li>
+    <li>Please try to [ go back ] or [ <a href="/">return to the homepage</a> ]</li>
+    <li>Good luck.</p></li>
+  </ul>
+
+  <br />
+
+</main>
+
+<footer role="contentinfo">
+  <p class="copyright">The content for this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>. The code for this site is <a href="https://opensource.org/license/mit/">MIT</a>.</p>
+</footer>
+
+    </div>
+  </body>
+</html>
