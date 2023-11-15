@@ -42,7 +42,13 @@
   
 <div class="archive">
     <h1 class="archive-year">## 2023</h1>
-        
+
+<div class="archive-item d-md-flex">
+    <div class="archive-date flex-none">[ 2023-11-14 ]</div>
+    <div class="spacer d-none d-md-block"></div>
+    <a href="/archive/2023/on-becoming-shell-literate" class="flex-none">On becoming shell literate</a>
+</div>
+
 <div class="archive-item d-md-flex">
     <div class="archive-date flex-none">[ 2023-09-02 ]</div>
     <div class="spacer d-none d-md-block"></div>

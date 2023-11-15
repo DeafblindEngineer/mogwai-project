@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Regular data -->
+  <meta charset="utf-8">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <!-- Description -->
+  <meta name="author" content="Gizmo" />
+  <meta name="description" content="Software Developer" />
+  <meta name="keywords" content="Gizmo, Braille Terminal, DeafBlind, Developer, Programmer, Engineer, Software Development, Full-Stack Development, DevOps, Linux" />
+  <meta name="Resource-type" content="Document" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Title -->
+  <title>Deafblind Engineer /essays/on-becoming-shell-literate</title>
+
+  <!-- Skiplink -->
+  <a href="#main" class="skiplink">Skip to main content</a>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+  <body>
+
+<div class="container">
+  <header role="banner">
+    <h1 class="site-title"><a href="/" title="Home">Deafblind Engineer</a></h1>
+      <ul class="nav" role="navigation">
+        <li><a href="/">/home</a></li>
+        <li><a href="/essays">/essays</a></li>
+        <li><a href="/readme">/readme</a></li>
+        <li><a href="/contact">/contact</a></li>
+      </ul>
+  </header>
+
+<main id="main" role="main">
+    <h1 class="page-title"># On becoming shell literate</h1>
+    <p class="essay-date">[ 2023-11-14 ]</p>
+    
+    <p>The past few months my focus has been on becoming shell literate as I continue my journey to transition from building software on Windows to a Linux-based distribution. My end goal is to master working on the terminal with its rich set of powerful tools to replace the need for a desktop IDE. I want to use Unix as an "IDE", and Vim as a text-editor so that I can have the freedom to creatively solve problems without being constrained by the framework laid out by IDE designers.</p>
+    <p>My shell literacy journey started with a book written by William Rothwell called "Linux for Developers: Jumpstart Your Linux Programming Skills". It's not a long read, just over a hundred pages in all, but it is a great primer that outlines all the essential tools a software developer needs to get started writing code on the terminal.</p>
+    
+    <h2>## Shell</h2>
+    <p>Rothwell's book was a great introduction to my shell literacy journey, but it only scratched the surface on what I needed to know to better understand how the humble BASH shell and its collection of Unix tools can be used to develop on the terminal. So, I began to work my way through William Shotts' seminal work "The Linux Command Line: A Complete Introduction". This took me deeper into the world of BASH, and Unix.</p>
+    <p>By the time I finished the book, I had come to understand that the enduring Unix toolset is as powerful as any desktop IDE, because the shell and the interoperability of these Unix tools share a common interface, which are highly effective in commanding the computer to perform complex tasks quickly. </p>
+    <p>I also came to realise that shell literacy is the most important skill I need possess as a software developer. With this thought in mind, I decided it would be prudent to reenforce my recently acquired knowledge by working my way through "Linux Command Line and Shell Scripting Bible" by Richard Blum, and Christine Bresnahan. Once I have finished, I will then look to read more advanced books on specific topics such as sed, awk, Perl, Tcl/Tk, etc …</p>
+    <p>Speaking of the shell it seems, from what I am reading online, that many developers recommend switching from the default Unix shell BASH (the Bourne Again Shell), to what appears to be the more popular ZSH shell (or Z Shell). At this point in my journey, I don't see any reason to do this myself as BASH has done everything I have asked of it; although that may change as my knowledge and understand of the shell matures.</p>
+
+    <h2>## Vim and Tmux</h2>
+    <p>As part of my journey to become shell literate I have also spent many, many hours in Vim—the Vi IMproved text editor—together with the terminal multiplexer, Tmux. I have seen a fork of Vim called Neovim, but like the BASH shell I don't feel the need to change from the vanilla Vim at this point in my journey. Before I set out on the long and winding road to mastering Vim and Tmux, I did compare them to GNU Emacs and Screen, but after reading the documentation and some experimentation of the two toolsets, I found myself preferring the fundamental concepts of Vim and Tmux.</p>
+    <p>To get started I initially began reading a book called "Pro Vim" by Mark McDonnell, to get a high-level overview of the text editor and terminal multiplexer, but stopped after a couple of chapters simply because the author spent too much time explaining how he had tricked out his text editor—and a lot of that focused on the visual aspects; something I am not interested in. I may at some point down the road finish reading it.</p>
+    <p>In the meantime, I wanted to find a book that started with the fundamentals of how Vim works and gradually build up my knowledge. Then I could look to configure the .vimrc to suit my own unique workflow. Eventually I found the book I wanted to read by Ruslan Osipov called "Mastering Vim: Build a software development environment with Vim and Neovim". I liked the structure and enjoyed the flow as the author move from one concept to another.</p>
+    <p>As McDonnell did however, Osipov also goes into great detail about how he tricked out his .vimrc to add a bunch of IDE-like features to the text editor. Unlike McDonnell though, Osipov gradually introduced concepts over the course of the book, which made reading and understanding things much easier. I found some of these .vimrc configurations to be very useful, as a deafblind engineer, while others less so, and because of the book's format it was much easier to skip over the sections that focused on visual enhancements of the text editor.</p>
+    <p>In both of these books the authors attempt to turn their Vim text editors into full-blown IDEs with their comprehensively tricked out .vimrc files and their eclectic selection of plugins. In my opinion, for what it is worth, they are trying to turn Vim into something it's not. Instead, I want to use Vim for what it was design to be, and what it does best; a text editor—and use the powerful, mature, and highly composable Unix as an "IDE"—that does not mean I won't be configuring my own .vimrc and adding a plugin or two. But Vim will remain what it is, a text editor, keeping in with my budding philosophy to build a minimalist yet powerful development environment.</p>
+
+    <h2>## Workflow</h2>
+    <p>My daily workflow, which is still very much work in progress, involves having several terminals open in the terminal multiplexer, Tmux. This workspace usually has one terminal open with the powerful terminal-embedded text editor Vim, another to run builds or daemons, and a third which keeps the Unix shell BASH handy to perform complex tasks and answer complex questions as I work.</p>
+    <p>This workflow fully utilises the keyboard apart from the occasional braille command resulting in a substantial amount of time saved. I am finding with this new Unix-based development environment, I can execute code and move from pane to pane almost at the speed of thought, enabling me to get my work done faster than ever.</p>
+
+    <h2>## What's Next?</h2>
+    <p>There is still so much I need to learn and figure out before I am truly productive and developing software with my new Unix-based development environment, but I am getting closer every day. There are three things I am currently focusing on: the first is to get a better understanding of how to perform bulk find-and-replace with sed, the second is to learn how to get answers to questions with awk, and the third is getting proficient with version control tools such as diff, git, patch, svn ...</p>
+
+    <p>-- Gizmo</p>
+
+    <br />
+
+</main>
+
+<footer role="contentinfo">
+  <p class="copyright">The content for this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>. The code for this site is <a href="https://opensource.org/license/mit/">MIT</a>.</p>
+</footer>
+
+    </div>
+  </body>
+</html>
