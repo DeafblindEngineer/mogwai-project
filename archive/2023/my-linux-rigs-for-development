@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Regular data -->
+  <meta charset="utf-8">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <!-- Description -->
+  <meta name="author" content="Gizmo" />
+  <meta name="description" content="Software Developer" />
+  <meta name="keywords" content="Gizmo, Braille Terminal, DeafBlind, Developer, Programmer, Engineer, Software Development, Full-Stack Development, DevOps, Linux" />
+  <meta name="Resource-type" content="Document" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Title -->
+  <title>Deafblind Engineer /essays/my-linux-rigs-for-development</title>
+
+  <!-- Skiplink -->
+  <a href="#main" class="skiplink">Skip to main content</a>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+  <body>
+
+<div class="container">
+  <header role="banner">
+    <h1 class="site-title"><a href="/" title="Home">Deafblind Engineer</a></h1>
+      <ul class="nav" role="navigation">
+        <li><a href="/">/home</a></li>
+        <li><a href="/essays">/essays</a></li>
+        <li><a href="/readme">/readme</a></li>
+        <li><a href="/contact">/contact</a></li>
+      </ul>
+  </header>
+
+<main id="main" role="main">
+    <h1 class="page-title"># My Linux Rigs for Development</h1>
+    <p class="essay-date">[ 2023-12-12 ]</p>
+    
+    <p>There are two Linux Rigs in "The Cube”—my development cubicle—that I have setup for development. One rig has the environment configured for full-stack development, the other for low-level systems programming and hardware driver development.</p>
+
+    <h2>## Hardware</h2>
+    <p>Both Linux Rigs are identical Dell XPS 13 Plus (9320) with a high-end Intel 13th Gen. (12-Core) i7-1360P Raptor Lake-P (Alder Lake-P refresh) CPU up to 5.00 GHz Turbo, which is perfectly suited for the ultra-light, ultra-thin—yet actively cooled—laptops. Each laptop has 32GB RAM (LPDDR5, 6000 MT/s dual-channel), and a 2TB (NVMe) SSD.</p>
+    <p>I absolutely love the 13.4" form factor, as it's nice and compact when working remotely while still offering beast mode CPU/Memory. The 3-cell (55 Wh) battery gives me 14+ hours of up time, thanks to the 13.4" non-touch display (FHD+ 1920x1200), which I can turn on and off with a keystroke.</p>
+    <p>The keyboard is usable when working remotely and it's comfortable to type on with a surprising amount of travel. I'm not a fan of the shrunken up and down arrow keys which have the combined height of the left and right arrow keys that flank them, but fortunately I prefer the h, j, k, l keys to move cursor around in Vim.</p>
+
+    <h2>## Docking Station</h2>
+    <p>When I am in "The Cube" I prefer to hook my laptop up to a docking station. The docking station I have found that works flawlessly with Linux is the CalDigit TS4 (Thunderbolt 4) Dock. I love how easy it is to just plug in one thunderbolt cable into the laptop and have immediate access to the computer room gigabit ethernet network, which gives me access to all the NASes, internal servers, network printer, scanner, mechanical keyboard, refreshable braille display, and even an external monitor for those time when I am collaborating with a sighted peer.</p>
+
+    <h2>## Distribution</h2>
+    <p>The Dell laptops came pre-installed with Ubuntu 22.04 LTS (Jammy Jellyfish). It is working well for me, and all the packages I could ever need are available, so there is no reason for me to change, at this point in time. I will upgrade it to Ubuntu 24.04 LTS (Noble Numbat) when it is released next spring, but I won't be an early adopter, as my current system is stable.</p>
+    
+    <h2>## Keyboard</h2>
+    <p>Since the mid-eighties I have used a Model M Keyboard in one guise or another starting with the original IBM Model M. The subsequent decades have seen me typing on various Model M keyboards from the likes of Lexmark International, Maxi Switch, through to my current Model M manufactured by Unicomp—which incidentally comes out of the same factory in Lexington, Kentucky, the original IBM keyboards were once made—I love the buckling-spring key design. These keyboards have a solid feel that provides great tactile feedback for each keystroke. The New Model M buckling spring keyboard from Unicomp has the same mechanism, feel and similar layout as the original IBM Model M keyboard, albeit with a slightly smaller footprint.</p>
+
+    <h2>## Assistive-Technology Stack</h2>
+    <p>The assistive-technology stack I am currently using on Ubuntu, is the Orca screen reader program in graphical-mode, speakup a kernel-based screen reader for the Linux console in text-mode, and the BRLTTY daemon to power a refreshable braille display.</p>
+    <p>BRLTTY works very well in the console, and I have it configured so I can switch between a contracted braille table (UEB: Unified English Braille) and the default computer braille table (NABCC: North American Braille Computer Code).</p>
+    <p>In "The Cube" I have a Focus 80 Blue 5th Gen. refreshable braille display hooked up to the docking station which works flawlessly. It has eighty refreshable braille cells and corresponding router keys. Behind the braille cells are the familiar nine keys that form the perkins-style braille keyboard. At each end of the display is a NAV Rocker with a NAV Mode button positioned above it. Along the front edge of the display are twelve buttons: two panning buttons, six rocker bars, two selector buttons, and two shift buttons.</p>
+    <p>When working remotely I prefer the Focus 40 Blue 5th Gen. which is more compact and easier to carry around than the eight-cell model as it is half the size with forty refreshable braille cells (which is still usable for programming) and two rather than six rocker bars.</p>
+
+    <h2>## Desktop Environment</h2>
+    <p>I prefer GNOME to MATE, which works fine for me, but I have very little need of a desktop environment. Mostly I spend my day in the gnome-terminal (pts) and on occasion the text console (tty). When working on the terminal or the text console the touchpad on the laptop can't cause me any trouble if I touch it by accident. The cursor can't make my editing commands fail to work by being on the wrong window. The background of my desktop is just the stock Ubuntu background, and there are no icons on my desktop.  Ever, ever, ever.</p>
+
+    <h2>## Development Environment</h2>
+    <p>This year has seen me move away from Visual Studio Code. I am now using Unix as an "IDE". My shell of choice is Bash. I also use Tmux as a terminal multiplexer, and Vim as my text editor. In terms of plugins for Vim, I try to keep it to a minimum.</p>
+    <p>My daily workflow usually means having several panes and windows open in Tmux. This workspace usually has one or two windows open with Vim, another to run builds, daemons, or something with lots of scrolling output, there might also be a terminal or two open with a SSH, SFTP, or Git session, together with another terminal that keeps a shell handy to perform complex tasks and answer complex questions as I work—whatever makes sense for my current task—I use the keyboard together with the occasional braille command to navigate around the development environment almost at the speed of thought, enabling me to get my work done faster than ever.</p>
+
+    <h2>## Browser</h2>
+    <p>I use lynx in text mode and Firefox in graphical mode. I am currently experimenting with browsh which integrates a headless Firefox into the shell that lets the world of JavaScript, HTML5, SSL/TLS, WebGL, WebAssembly and more on the terminal in real-time.</p>
+
+    <h2>## Email</h2>
+    <p>I have switched from Thunderbird to Mutt, a text-based, command-line mail user agent (MUA) with Vim as my email editor. Mutt is a small, powerful, highly customisable, and efficient console-based mail client. I have configured the MUA to work with multiple IMAP accounts including Gmail and Exchange accounts.</p>
+
+    <h2>## Password Manager</h2>
+    <p>My current password manager is 1Password CLI. This is a hangover from my Windows days but works well on the terminal, so I will continue using it for the time being as it would be an upheaval for me to switch to another password manager.</p>
+
+    <h2>## VPN</h2>
+    <p>As with my password manager, my VPN is a carryover from Windows. Much like 1Password, ExpressVPN works well on the terminal and at this point in time I don't see any reason to change it.</p>
+
+    <h2>## Addendum</h2>
+    <p>Across the board, these Linux Rigs are giving me the power and flexibility I need to be able to work on my projects from full-stack development through to low-level systems programming and hardware driver development—and remarkably it just keeps getting better!</p>
+
+    <p>-- Gizmo</p>
+
+    <br />
+
+</main>
+
+<footer role="contentinfo">
+  <p class="copyright">The content for this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>. The code for this site is <a href="https://opensource.org/license/mit/">MIT</a>.</p>
+</footer>
+
+    </div>
+  </body>
+</html>
