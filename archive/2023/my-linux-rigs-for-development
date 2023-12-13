@@ -44,7 +44,7 @@
 
     <h2>## Hardware</h2>
     <p>Both Linux Rigs are identical Dell XPS 13 Plus (9320) with a high-end Intel 13th Gen. (12-Core) i7-1360P Raptor Lake-P (Alder Lake-P refresh) CPU up to 5.00 GHz Turbo, which is perfectly suited for the ultra-light, ultra-thin—yet actively cooled—laptops. Each laptop has 32GB RAM (LPDDR5, 6000 MT/s dual-channel), and a 2TB (NVMe) SSD.</p>
-    <p>I absolutely love the 13.4" form factor, as it's nice and compact when working remotely while still offering beast mode CPU/Memory. The 3-cell (55 Wh) battery gives me 14+ hours of up time, thanks to the 13.4" non-touch display (FHD+ 1920x1200), which I can turn on and off with a keystroke.</p>
+    <p>I absolutely love the 13.4" form factor, as it's nice and compact when working remotely while still offering beast mode CPU/Memory. The 3-cell (55 Wh) battery gives me 14+ hours of up time, thanks to the 13.4" non-touch display (FHD+ 1920x1200), which I can turn on and off with a custom terminal keybinding.</p>
     <p>The keyboard is usable when working remotely and it's comfortable to type on with a surprising amount of travel. I'm not a fan of the shrunken up and down arrow keys which have the combined height of the left and right arrow keys that flank them, but fortunately I prefer the h, j, k, l keys to move cursor around in Vim.</p>
 
     <h2>## Docking Station</h2>
