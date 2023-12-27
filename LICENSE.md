@@ -1,1 +1,1 @@
-This is my personal website. You are free to reuse the content under the terms of [CC-BY-SA](https://github.com/DeafblindEngineer/mogwai-project/blob/main/CC-BY-SA-4.0-LICENSE.md), and the code under the terms of the [MIT](https://opensource.org/license/mit/) license.
+This is my personal website. You are free to reuse the content under the terms of [CC-BY-SA](https://github.com/DeafblindEngineer/mogwai-project/blob/main/CC-BY-SA-4.0-LICENSE.md), and the code under the terms of the [MIT](https://github.com/DeafblindEngineer/mogwai-project/blob/main/MIT-LICENSE.md) license.
