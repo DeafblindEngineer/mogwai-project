@@ -500,6 +500,10 @@ kbd {
     padding: 0;
 }
 
+/**
+ * No Spam
+ */
+
 span.blockspam {
     display: none;
 }  
