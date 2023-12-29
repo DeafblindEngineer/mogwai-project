@@ -484,17 +484,11 @@ kbd {
  */
 
  .brl-06 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Braille-6-dot';
     font-size: 3rem;
     padding: 0;
 }
 .brl-08 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Braille-8-dot';
     font-size: 3rem;
     padding: 0;
